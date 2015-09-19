@@ -13,6 +13,12 @@ function Damage (DamageThing : int){
 		function OnTriggerEnter (other : Collider) {
 		Debug.Log("Player says: Oh no!");
 	}
+	
+function Update () {
+		if (Input.GetKey ("escape")) {
+			Application.Quit();
+		}
+	}
 //	
 //
 //function OnTriggerEnter (collision : Collider){

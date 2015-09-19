@@ -11,6 +11,7 @@ function Update () {
 			var particleClone = Instantiate(Flare, shot.point, Quaternion.LookRotation(shot.normal));
 			Destroy(particleClone.gameObject,2);
 			shot.transform.SendMessage("Damage",DamageThing,SendMessageOptions.DontRequireReceiver);
+			shot.transform.SendMessage("InflictDamage");
 		}
 	}
 }
