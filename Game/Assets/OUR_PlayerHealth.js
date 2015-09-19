@@ -9,6 +9,10 @@ function Damage (DamageThing : int){
 			Debug.Log("You ded");
 		}
 	}
+	
+		function OnTriggerEnter (other : Collider) {
+		Debug.Log("Player says: Oh no!");
+	}
 //	
 //
 //function OnTriggerEnter (collision : Collider){
