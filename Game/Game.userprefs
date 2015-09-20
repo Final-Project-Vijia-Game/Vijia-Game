@@ -1,11 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EnemySpawnManager.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PauseMenuFunc.js">
     <Files>
-      <File FileName="Assets/EnemySpawnManager.js" Line="15" Column="2" />
-      <File FileName="Assets/Scripts/EnemyHealth.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Bullet.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/OUR_PlayerHealth.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/OUR_PlayerHealth.js" Line="57" Column="1" />
+      <File FileName="Assets/Scripts/Bullet.js" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/DeathRespawn.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Ai.js" Line="110" Column="2" />
+      <File FileName="Assets/Scripts/EnemySpawnManager.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Paused.js" Line="39" Column="2" />
+      <File FileName="Assets/Scripts/EnemyHealth.js" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/NewGameScript.js" Line="13" Column="2" />
+      <File FileName="Assets/Scripts/PauseMenuFunc.js" Line="11" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
