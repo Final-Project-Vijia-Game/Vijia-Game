@@ -1,6 +1,7 @@
 ﻿#pragma strict
 
-function Resume(){
+function Restart(scene : int){
+	Application.LoadLevel(scene);
 }
 
 function MainMenu(scene : int){

@@ -1,6 +1,7 @@
 ﻿#pragma strict
 
 var PauseUI : GameObject;
+Cursor.visible = false;
 private var paused = false;
 
 function Start () {
@@ -14,6 +15,7 @@ function Update () {
 	if (paused) {
 		PauseUI.SetActive(true);
 		Time.timeScale = 0;
+		 Cursor.visible = true;
 		} else if (!paused) {
 			PauseUI.SetActive(false);
 			Time.timeScale = 1;
