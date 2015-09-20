@@ -1,5 +1,5 @@
 ﻿#pragma strict
-
+//Variables for health updates
 var health = 100;
 var currentHealth : int;
 //This is healthbar slider OBJECT
@@ -9,33 +9,26 @@ var healthBarValue : UI.Slider;
 healthBar = GameObject.FindGameObjectWithTag("HB");
 healthBarValue = healthBar.GetComponent(UI.Slider);
 
-function Start(){
-Debug.Log(healthBarValue.value);
-}
+//Variables to indicate damage
+var damageIndicator : UnityEngine.UI.Image;
+var flashSpeed : float = 2.5;
+var flashColor : Color = new Color(1f, 0f, 0f, 0.1f);
+
 function Damage (DamagePlayer : int){
 	currentHealth = healthBarValue.value -= DamagePlayer;
 	health = currentHealth;
+	damageIndicator.color = flashColor;
+	
 	if (health <= 0){
 			Debug.Log("You ded");
+		} else {
+			yield WaitForSeconds(.5);
+			damageIndicator.color = Color.Lerp (damageIndicator.color, Color.clear, flashSpeed * Time.deltaTime);
 		}
-	}
-	
-		function OnTriggerEnter (other : Collider) {
-		Debug.Log("Player says: Oh no!");
 	}
 	
 function Update () {
 		if (Input.GetKey ("escape")) {
 			Application.Quit();
 		}
-	}
-//	
-//
-//function OnTriggerEnter (collision : Collider){
-//	Debug.Log("Ow");
-//	if (collision.gameObject == Enemy){
-//		Debug.Log("Boop");
-//		Damage(50);
-//		}
-//}
-
+}

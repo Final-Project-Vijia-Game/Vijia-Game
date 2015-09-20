@@ -1,7 +1,7 @@
 ﻿var Target : Transform;
 var noticedRange = 40.0;
 var chaseRange = 25.0;
-var attackRange = 5.0;
+var attackRange = 6.0;
 var moveSpeed = 5.0;
 var Damping = 6.0;
 var attackRepeatTime = 1;
@@ -21,7 +21,6 @@ playerHealth = player.GetComponent(OUR_PlayerHealth);
 
 function Start () {
     attackTime = Time.time;
-    Debug.Log(playerHealth.health);
 }
 
 function Update () {
