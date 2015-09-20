@@ -2,8 +2,8 @@
 
 var Health = 100;
 
-function Damage (DamageThing : int){
-	Health -= DamageThing;
+function Damage (DamageEnemy : int){
+	Health -= DamageEnemy;
 	if (Health <= 0) {
 		Dead();
 		}

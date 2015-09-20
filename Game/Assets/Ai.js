@@ -10,12 +10,18 @@ var controller : CharacterController;
 var gravity : float = 10.0;
 private var MoveDirection : Vector3 = Vector3.zero;
 
-var Damage = 10;
+var DamagePlayer = 10;
 
 private var attackTime : float;
 
+var player : GameObject;
+var playerHealth : OUR_PlayerHealth;
+player = GameObject.FindGameObjectWithTag("Player");
+playerHealth = player.GetComponent(OUR_PlayerHealth);
+
 function Start () {
     attackTime = Time.time;
+    Debug.Log(playerHealth.health);
 }
 
 function Update () {
@@ -57,6 +63,7 @@ function chase() {
 function attack() {
     if (Time.time > attackTime) {
         Debug.Log("Attacked!");
+        Target.SendMessage("Damage", DamagePlayer);
         attackTime = Time.time + attackRepeatTime;
     }
 }
