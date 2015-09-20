@@ -1,11 +1,12 @@
 ﻿#pragma strict
 
 var PauseUI : GameObject;
-Cursor.visible = false;
 private var paused = false;
 
 function Start () {
 	PauseUI.SetActive(false);
+	Cursor.visible = false;
+	Cursor.lockState = CursorLockMode.Locked;
 }
 
 function Update () {
@@ -15,9 +16,11 @@ function Update () {
 	if (paused) {
 		PauseUI.SetActive(true);
 		Time.timeScale = 0;
-		 Cursor.visible = true;
+		Cursor.visible = true;
+		Cursor.lockState = CursorLockMode.Confined;
 		} else if (!paused) {
 			PauseUI.SetActive(false);
 			Time.timeScale = 1;
+			Cursor.lockState = CursorLockMode.Locked;
 	}
 }
