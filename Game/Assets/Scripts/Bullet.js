@@ -14,7 +14,7 @@ function Update () {
 	
 	if (Input.GetMouseButtonDown(0)){
 		//when the user click the LMB
-		if(Physics.Raycast(ray,shot,50)){
+		if(Physics.Raycast(ray,shot,60)){
 			//an clone of Flare is created at the point at which the laser reaches in a straight line
 			var particleClone = Instantiate(Flare, shot.point, Quaternion.LookRotation(shot.normal));
 			//removes the flare clone after 2 seconds
@@ -24,7 +24,7 @@ function Update () {
 			//However, we did not require the laser to have a receipient in order to convey a message
 			shot.transform.SendMessage("Damage",DamageThing,SendMessageOptions.DontRequireReceiver);
 			//the shot will also envoke the InflictDamage function in the enemy that will make it 'aggressive'
-			shot.transform.SendMessage("InflictDamage");
+			shot.transform.SendMessage("InflictDamage",null,SendMessageOptions.DontRequireReceiver);
 		}
 	}
 }

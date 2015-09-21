@@ -1,13 +1,13 @@
 ﻿//Target will be a position. To be set in the GUI as the player
 var Target : Transform;
 //Enemy has 3 phases, defaults to idle until player is in range of this, then goes to look at player
-var noticedRange = 40.0;
+var noticedRange = 50.0;
 //3rd phase is enemy pursuing player
-var chaseRange = 25.0;
+var chaseRange = 35.0;
 //range in which the player is in to trigger an attack
 var attackRange = 6.0;
 //enemies' movespeed
-var moveSpeed = 5.0;
+var moveSpeed = 20.1;
 //gives a smooth effect rather than snapping. To be used with a rotation
 var Damping = 6.0;
 //prevents enemies from attack a bunch of times in a single frame

@@ -2,7 +2,7 @@
 
 //var playerHealth : PlayerHealth;
 var Enemy : GameObject;
-var spawnTime : float = 5f;
+var spawnTime : float = 4f;
 var spawnPoints : Transform[];
 
 var enemyCount : int;
@@ -16,7 +16,8 @@ function Spawn () {
 	Instantiate(Enemy, spawnPoints[spawnPointI].position, spawnPoints[spawnPointI].rotation);
 	enemyCount += 1;
 	Debug.Log(enemyCount);
-	if (enemyCount >= 4) {
+	if (enemyCount >= 10) {
 		CancelInvoke();
+		Destroy(Enemy.gameObject);
 	}
 }
