@@ -2,6 +2,7 @@
 
 //PauseUI is a GameObject that will be set in the GUI as the canvas
 var PauseUI : GameObject;
+var fpc : UnityStandardAssets.Characters.FirstPerson.FirstPersonController;
 private var paused = false;
 
 function Start () {
@@ -22,6 +23,8 @@ function Update () {
 	if (paused) {
 		//if the pause state is true the pause canvas will appear
 		PauseUI.SetActive(true);
+		//disable all movement
+		fpc.enabled=false;
 		//game time/frames will freeze
 		Time.timeScale = 0;
 		//cursor is made available
@@ -31,6 +34,8 @@ function Update () {
 		} else if (!paused) {
 			//if the pause state is false the canvas goes back to hidden
 			PauseUI.SetActive(false);
+			//enable all movement
+			fpc.enabled=true;
 			//time frame rate returns to normal speed
 			Time.timeScale = 1;
 			//cursor goes back to being locked at the center of the screen

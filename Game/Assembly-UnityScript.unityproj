@@ -46,10 +46,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BackButton.js" />
+     <Compile Include="Assets\DirectionBackButton.js" />
      <Compile Include="Assets\MiniMapScript.js" />
      <Compile Include="Assets\Scripts\Ai.js" />
      <Compile Include="Assets\Scripts\Bullet.js" />
-     <Compile Include="Assets\Scripts\DeathRespawn.js" />
      <Compile Include="Assets\Scripts\EnemyHealth.js" />
      <Compile Include="Assets\Scripts\EnemySpawnManager.js" />
      <Compile Include="Assets\Scripts\NewGameScript.js" />

@@ -3,7 +3,7 @@
 //the Flare is then set to a particle system on the GUI
 var Flare : Transform;
 //set damage of attacks
-var DamageThing = 25;
+var DamageThing : int = 34;
 
 //continuous update/check
 function Update () {
@@ -23,6 +23,7 @@ function Update () {
 			//DamageThing is the integer that is being passed as an argument for the Damage function
 			//However, we did not require the laser to have a receipient in order to convey a message
 			shot.transform.SendMessage("Damage",DamageThing,SendMessageOptions.DontRequireReceiver);
+			Debug.Log("Hit for "+DamageThing);
 			//the shot will also envoke the InflictDamage function in the enemy that will make it 'aggressive'
 			shot.transform.SendMessage("InflictDamage",null,SendMessageOptions.DontRequireReceiver);
 		}
