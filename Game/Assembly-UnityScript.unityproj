@@ -45,6 +45,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BackButton.js" />
+     <Compile Include="Assets\MiniMapScript.js" />
      <Compile Include="Assets\Scripts\Ai.js" />
      <Compile Include="Assets\Scripts\Bullet.js" />
      <Compile Include="Assets\Scripts\DeathRespawn.js" />
@@ -54,6 +56,8 @@
      <Compile Include="Assets\Scripts\OUR_PlayerHealth.js" />
      <Compile Include="Assets\Scripts\PauseMenuFunc.js" />
      <Compile Include="Assets\Scripts\Paused.js" />
+     <Compile Include="Assets\ghoul\scripts\cameraRoot.js" />
+     <None Include="Assets\ghoul\shader\ghoulshader.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />

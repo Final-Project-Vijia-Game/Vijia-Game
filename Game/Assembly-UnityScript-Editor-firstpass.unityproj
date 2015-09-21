@@ -58,6 +58,7 @@
      <Compile Include="Assets\Plugins\Editor\UseEffectsEditor.js" />
      <Compile Include="Assets\Plugins\Editor\WeaponClassIconsEditor.js" />
      <Compile Include="Assets\Plugins\Editor\WizardEditor.js" />
+     <None Include="Assets\ghoul\shader\ghoulshader.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
