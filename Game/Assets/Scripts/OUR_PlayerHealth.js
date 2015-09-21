@@ -1,8 +1,8 @@
 ﻿#pragma strict
 
-
-//targets the controller script for disabling in line 66
+//targets the controller script for disabling later
 var fpc : UnityStandardAssets.Characters.FirstPerson.FirstPersonController;
+
 //setup for kill counter and end game
 var counter : GameObject;
 
@@ -46,8 +46,8 @@ function Damage (DamagePlayer : int){
 	if (health <= 0){
 		Debug.Log("You ded");
 		//if player is dead, the game over canvas appears
+		fpc.enabled=false;
 		gameOver.SetActive(true);
-		fpc.enabled=false; 
 		//And after 2 seconds the player is redirected to the main menu w/ mouse view and capabilities
         yield WaitForSeconds(3);
         Application.LoadLevel(0);
@@ -75,7 +75,7 @@ function checkForWin() {
 	if (howManyLeft == 0){
 		Debug.Log("There are "+howManyLeft+" enemies left");
 		win.SetActive(true);
-		fpc.enabled=false;
+		fpc.enabled = false;
 		//wait 4 seconds
 		yield WaitForSeconds(3);
 		//go back to main menu

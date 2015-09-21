@@ -19,12 +19,12 @@ function Update () {
 	if (Input.GetKeyDown(KeyCode.Return)){
 		//if the enter/return button is press, which ever state the pause boolean is set to, it will now be opposite
 		paused = !paused;
+		fpc.enabled=!fpc.enabled;
 		}
 	if (paused) {
 		//if the pause state is true the pause canvas will appear
 		PauseUI.SetActive(true);
 		//disable all movement
-		fpc.enabled=false;
 		//game time/frames will freeze
 		Time.timeScale = 0;
 		//cursor is made available
@@ -35,10 +35,10 @@ function Update () {
 			//if the pause state is false the canvas goes back to hidden
 			PauseUI.SetActive(false);
 			//enable all movement
-			fpc.enabled=true;
 			//time frame rate returns to normal speed
 			Time.timeScale = 1;
 			//cursor goes back to being locked at the center of the screen
 			Cursor.lockState = CursorLockMode.Locked;
+			Cursor.visible = false;
 	}
 }

@@ -5,7 +5,7 @@ var Enemy : GameObject;
 var spawnTime : float = 4f;
 var spawnPoints : Transform[];
 
-var enemyCount : int;
+private var enemyCount : int;
 
 function Start () {
 	InvokeRepeating("Spawn", spawnTime, spawnTime);
