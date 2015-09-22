@@ -1,3 +1,59 @@
 Base path: /Applications/Unity/Unity.app/Contents
 Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-2118456064
 Cmd: getPlatforms
+Cmd: compileSnippet
+  api=4 type=0 insize=619 outsize=4231 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=619 outsize=803 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=794 outsize=4402 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=794 outsize=436 kw=SHADOWS_CUBE pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=794 outsize=2257 kw=SHADOWS_CUBE pd= ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=794 outsize=3323 kw=SHADOWS_CUBE pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=794 outsize=453 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=794 outsize=97 kw=SHADOWS_CUBE pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=794 outsize=697 kw=SHADOWS_CUBE pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=631 outsize=4264 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=631 outsize=989 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1004 outsize=4629 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=1004 outsize=467 kw=SHADOWS_CUBE pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1004 outsize=2460 kw=SHADOWS_CUBE pd= ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=1004 outsize=3575 kw=SHADOWS_CUBE pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1004 outsize=884 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=1004 outsize=171 kw=SHADOWS_CUBE pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1004 outsize=1087 kw=SHADOWS_CUBE pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4070 outsize=2598 kw= pd= ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=4070 outsize=919 kw=POINT pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4070 outsize=3654 kw=POINT pd= ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=4070 outsize=1081 kw=SPOT pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4070 outsize=4020 kw=SPOT pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4070 outsize=989 kw= pd= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=4070 outsize=197 kw=POINT pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4070 outsize=989 kw=POINT pd= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=4070 outsize=197 kw=SPOT pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4070 outsize=989 kw=SPOT pd= ok=1

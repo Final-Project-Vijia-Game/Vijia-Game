@@ -1,6 +1,55 @@
 Base path: /Applications/Unity/Unity.app/Contents
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-2-709365760
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-2-740122624
 Cmd: getPlatforms
-End of pipe
-
-Quitting shader compiler process
+Cmd: compileSnippet
+  api=1 type=0 insize=619 outsize=1916 kw= pd= ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=619 outsize=7711 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=619 outsize=133 kw= pd= ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=619 outsize=1170 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=794 outsize=1087 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=794 outsize=6711 kw=SHADOWS_DEPTH pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=794 outsize=61 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=794 outsize=674 kw=SHADOWS_DEPTH pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=794 outsize=1008 kw=SHADOWS_CUBE pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=631 outsize=1985 kw= pd= ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=631 outsize=7914 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=631 outsize=133 kw= pd= ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=631 outsize=1357 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=1004 outsize=1118 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=1004 outsize=6988 kw=SHADOWS_DEPTH pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=1004 outsize=135 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=1004 outsize=1268 kw=SHADOWS_DEPTH pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=1004 outsize=1560 kw=SHADOWS_CUBE pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=4070 outsize=572 kw= pd= ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=4070 outsize=3859 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=4070 outsize=5501 kw=POINT pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=4070 outsize=6118 kw=SPOT pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=4070 outsize=197 kw= pd= ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=4070 outsize=1479 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=4070 outsize=1479 kw=POINT pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=4070 outsize=1479 kw=SPOT pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
