@@ -1,16 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Persist.js">
     <Files>
       <File FileName="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" Line="27" Column="56" />
       <File FileName="Assets/Scripts/Ai.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/OUR_PlayerHealth.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/OUR_PlayerHealth.js" Line="72" Column="72" />
       <File FileName="Assets/Scripts/Bullet.js" Line="24" Column="58" />
       <File FileName="Assets/Scripts/EnemySpawnManager.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Paused.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/EnemyHealth.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/NewGameScript.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Persist.js" Line="4" Column="23" />
+      <File FileName="Assets/Scripts/Persist.js" Line="7" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
